@@ -1,0 +1,25 @@
+#!/bin/bash
+
+run_cmd() {
+    local c="$1"
+    echo ""
+    echo "┌──────────────────────────────────────────────────────────────────"
+    echo "│ 🚀 RUNNING: $c"
+    echo "└──────────────────────────────────────────────────────────────────"
+    eval "$c"
+    echo -e "\n"
+}
+
+run_cmd "cd ~/Documents/pico_ctf/"
+run_cmd "ls"
+run_cmd "cd Vault-Door-Challenges"
+run_cmd "cd Vault-Door-3"
+run_cmd "ls"
+run_cmd "cat VaultDoor3.java "
+run_cmd "subl solve.py"
+run_cmd "subl manual_simulation.txt"
+run_cmd "cat manual_simulation.txt"
+run_cmd "cat solve.py"
+run_cmd "python3 solve.py"
+run_cmd "java VaultDoor3.java"
+run_cmd "python3 solve.py"

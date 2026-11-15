@@ -1,0 +1,20 @@
+#!/bin/bash
+
+run_cmd() {
+    local c="$1"
+    echo ""
+    echo "===================================================================="
+    echo "INPUT:  $c"
+    echo "--------------------------------------------------------------------"
+    echo "OUTPUT:"
+    eval "$c"
+    echo "===================================================================="
+    echo -e "\n"
+}
+
+run_cmd "wget https://challenge-files.cylabacademy.net/library/1aeb070229259c18f9b2c9f1d0982f8dab37c7547526f8d55288a5a8bb856e2d/VaultDoor6.java"
+run_cmd "cat VaultDoor6.java"
+run_cmd "cat solve.py"
+run_cmd "python3 solve.py"
+run_cmd "python3 solve.py"
+run_cmd "save"

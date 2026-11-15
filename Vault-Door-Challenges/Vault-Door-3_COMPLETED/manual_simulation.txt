@@ -1,0 +1,28 @@
+jumbled:
+
+CHAR:   j U 5 t _ a _ s n a  _  3  l  p  m  1  5  g  e  4  2  _  u  _  4 _  m   b  r  2  4  8
+index:  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+
+1st loop:
+i = 0-7    char: 0 - 7    cardinal: 8
+
+jU5t_a_s
+
+2nd loop:
+i = 8-15    char: 23-i  |  23-8 = 15, 23-9 = 14, ..., 23-15 = 8.    cardinal: 8
+
+na_3lpm1  ->  1mpl3_an
+
+3rd loop:
+i = 16, 18, ... , 30   char: 46-i | 46 - 16 = 30, ... , 46 - 30 = 16.    cardinal: 8
+
+4rm4u2e5
+
+4th loop:
+i = 31 - 17    char: 31, 29, 27, ... , 17   cardinal: 8
+
+82b___4g
+
+total char = 32
+
+predicted pass: jU5t_a_s1mpl3_an4rm4u2e582b___4g
