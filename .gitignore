@@ -1,0 +1,23 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Virtual machine files
+*.vdi
+*.vbox
+*.vbox-prev
+*.ova
+*.ovf
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
