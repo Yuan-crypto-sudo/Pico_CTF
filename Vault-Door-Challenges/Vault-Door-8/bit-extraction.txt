@@ -1,9 +1,0 @@
-char bit1 = (char)(c & mask1);
-char bit2 = (char)(c & mask2);
-
-& operator is called bitwise AND.
-
-A    = 01000001
-mask1= 00000001
-       --------
-bit1 = 00000001
