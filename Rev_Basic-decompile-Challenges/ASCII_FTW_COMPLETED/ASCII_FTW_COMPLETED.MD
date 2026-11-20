@@ -20,7 +20,7 @@ The challenge gives an ELF binary, 'asciiFTW', with no source code.
 
 return: The flag starts with 61
 
-- 61 is the hex ASCII value of 'a', the first letter of teh flag.
+- 61 is the hex ASCII value of 'a', the first letter of the flag.
 - It doesn't ask for an input, much less a password, so the flag must be in the binary.
 
 ## 2. The stack string in main
@@ -50,7 +50,7 @@ For verfication, the results obtained through static analysis, GDB was used to i
 - Launching the debugger:
 # command: gdb -q ./asciiftw
 
-- A breakpoint was placed at main+0x97(address 0x1200), exactly after the instructions for storing the finals character in teh stack.
+- A breakpoint was placed at main+0x97(address 0x1200), exactly after the instructions for storing the finals character in the stack.
 # command: break *main+97
 # command: run
 
