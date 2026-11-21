@@ -37,7 +37,7 @@ This tells us:
 - T means the symbol is located in the executable's code section.
 
 
-- command: `objdump -d -M intel debugger0_a`
+- command: `objdump -d -M intel debugger0_b`
 
 0000000000401106 <main>:
   401106:       f3 0f 1e fa             endbr64
