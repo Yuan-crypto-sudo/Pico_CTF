@@ -109,7 +109,7 @@ Now let's set a breakpoint at the instruction that loads the return value:
 
 - `break *(main+39)`
 
-+39 Because main starts at 0x1129, and the instruction mov eax,0x86342 is located at 0x1138.
++39 Because main starts at 0x401106, and the instruction mov eax,0x86342 is located at 0x1138.
 
 - continue
 
