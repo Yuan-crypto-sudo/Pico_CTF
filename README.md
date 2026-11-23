@@ -34,7 +34,7 @@ pico_ctf/
 | Vault Door 5        | Reverse Engineering  | Completed              | Base64 and URL decoding 
 | Vault Door 6        | Reverse Engineering  | Completed              | XOR 
 | Vault Door 7        | Reverse Engineering  | Completed              | Bitwise operations 
-| Vault Door 8        | Reverse Engineering  | In Progress            | Bit manipulation 
+| Vault Door 8        | Reverse Engineering  | Completed              | Bit manipulation 
 | Flag Hunters 1      | File Run             | Completed              | Python source analysis 
 | ASCII FTW           | Reverse Engineering  | Completed              | Stack string, hex to ASCII (objdump) |
 | Transformation      | Reverse Engineering  | Completed              | 16-bit character packing, shift and mask |
